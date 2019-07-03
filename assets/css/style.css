@@ -1,0 +1,130 @@
+.nav-ban{
+	position: relative;
+}
+
+@media only screen and (min-width: 720px){
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #D9B08C;
+}
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+    color: #FFCB9A;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFCB9A;
+    font-size: 20px;
+    font-family: smplifica;
+}
+
+.navbar-nav .active{
+	border-bottom: 2px solid #FFCB9A;
+}
+.banner{
+	position: relative;
+	background-image: url('../img/green.jpg');
+	height: 100vh;
+	width: 100%;
+}
+.banner-texts{
+	display: inline-block;
+	margin-top:12%;
+}
+@font-face {
+	font-family: simplifica;
+	src:url(../assets/fonts/SIMPLIFICA.ttf);
+}
+.banner-texts h1{
+	color: #FFCB9A;
+	font-size:38px;
+	font-family: simplifica;
+}
+.banner-texts p{
+	color: #FFCB9A;
+	
+	font-family: simplifica;
+	font-style: italic;
+}
+.banner-texts b{
+	font-size: 18px;
+	/*font-style: normal;*/
+	font-variant: small-caps;
+}
+.banner-texts span{
+	font-size:40px;
+	display: inline;
+	line-height: 30px;
+}
+.banner-img{
+height: 50px;
+width:50px;
+box-shadow: rgba(58,78,95,0.2) 0 2px 16px, rgba(58,78,95,0.05) 0 -5px 16px;
+}
+
+.banner-content{
+	/*position: absolute;*/
+	text-align: center;
+}	
+}
+@media only screen and (max-width: 719px){
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: #D9B08C;
+
+}
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+    color: #FFCB9A;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFCB9A;
+    /*font-size: 20px;*/
+    font-family: simplifica;
+}
+.navbar-nav .active {
+	border-left: 2px solid #FFCB9A;
+
+}	
+.banner{
+	position: relative;
+	background-image: url('../img/green.jpg');
+	height: 100%;
+	width: 100%;
+}
+.banner-texts{
+	display: inline-block;
+	margin-top:30%;
+}
+@font-face {
+	font-family: simplifica;
+	src:url(../assets/fonts/SIMPLIFICA.ttf);
+}
+.banner-texts h1{
+	color: #FFCB9A;
+	font-size:40px;
+	font-family: simplifica;
+}
+.banner-texts p{
+	color: #FFCB9A;
+	
+	font-family: simplifica;
+	font-style: italic;
+}
+.banner-texts b{
+	font-size: 18px;
+	/*font-style: normal;*/
+	font-variant: small-caps;
+}
+.banner-texts span{
+	font-size:40px;
+	display: inline;
+	line-height: 30px;
+}
+.banner-img{
+height: 50px;
+width:50px;
+box-shadow: rgba(58,78,95,0.2) 0 2px 16px, rgba(58,78,95,0.05) 0 -5px 16px;
+}
+
+.banner-content{
+	/*position: absolute;*/
+	text-align: center;
+}	
+}
+
