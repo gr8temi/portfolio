@@ -5,19 +5,19 @@
 @media only screen and (min-width: 720px){
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
     color: #D9B08C;
-    border-bottom: 2px solid #FFCB9A;
+    border-bottom: 2px solid #ffc107;
 }
 .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
-    color: #FFCB9A;
+    color: #ffc107;
 }
 .navbar-dark .navbar-nav .nav-link {
-    color: #FFCB9A;
+    color: #ffc107;
     font-size: 20px;
     font-family: smplifica;
 }
 
 .navbar-nav .active{
-	border-bottom: 2px solid #FFCB9A;
+	border-bottom: 2px solid #ffc107;
 }
 .banner{
 	position: relative;
@@ -35,12 +35,12 @@
 	src:url(../assets/fonts/SIMPLIFICA.ttf);
 }
 .banner-texts h1{
-	color: #FFCB9A;
+	color: #ffc107;
 	font-size:38px;
 	font-family: simplifica;
 }
 .banner-texts p{
-	color: #FFCB9A;
+	color: #ffc107;
 	
 	font-family: simplifica;
 	font-style: italic;
@@ -69,19 +69,19 @@ box-shadow: rgba(58,78,95,0.2) 0 2px 16px, rgba(58,78,95,0.05) 0 -5px 16px;
 @media only screen and (max-width: 719px){
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
     color: #D9B08C;
-    border-left: 2px solid #FFCB9A;
+    border-left: 2px solid #ffc107;
 
 }
 .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
     color: #FFCB9A;
 }
 .navbar-dark .navbar-nav .nav-link {
-    color: #FFCB9A;
+    color: #ffc107;
     /*font-size: 20px;*/
     font-family: simplifica;
 }
 .navbar-nav .active {
-	border-left: 2px solid #FFCB9A;
+	border-left: 2px solid #ffc107;
 
 }	
 .banner{
@@ -100,12 +100,12 @@ box-shadow: rgba(58,78,95,0.2) 0 2px 16px, rgba(58,78,95,0.05) 0 -5px 16px;
 	src:url(../assets/fonts/SIMPLIFICA.ttf);
 }
 .banner-texts h1{
-	color: #FFCB9A;
+	color: #ffc107;
 	font-size:40px;
 	font-family: simplifica;
 }
 .banner-texts p{
-	color: #FFCB9A;
+	color: #ffc107;
 	
 	font-family: simplifica;
 	font-style: italic;
@@ -149,5 +149,11 @@ box-shadow: rgba(58,78,95,0.2) 0 2px 16px, rgba(58,78,95,0.05) 0 -5px 16px;
 	background-color: transparent;
 }
 .bg-list .list-group-item{
-	border:1px solid #FFCB9A;
+	border:1px solid #ffc107;
+}
+.form-shade{
+	border-radius: 4px;
+	padding: 10px;
+	box-shadow: rgba(58,78,95,0.2) 0 2px 16px, rgba(58,78,95,0.05) 0 -5px 16px;
+	/*background-color: #ffc107;*/
 }
